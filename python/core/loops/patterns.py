@@ -275,31 +275,11 @@ num = 5
 #     print()
 
 
-# * * * * * * *
-# *   *   *   *
-# * * *   *   *
-# *       *   *
-# * * * * *   *
-# *           *
-# * * * * * * *
+
 
 num = 3
 
-# * * *
-#  * 1 *
-#   * * *
-#   * * *
-#  * 2 *
-# * * *
-# * * *
-#  * 3 *
-#   * * *
-#   * * *
-#  * 4 *
-# * * *
-# * * *
-#  * 5 *
-#   * * *
+
 
 
 # 5 4 3 2 1 
@@ -339,3 +319,81 @@ num = 3
 #       *       * 
 #         * * * * *
                          
+
+
+# * * * * * * *
+# *   *   *   *
+# * * *   *   *
+# *       *   *
+# * * * * *   *
+# *           *
+# * * * * * * *
+
+
+# num = 15
+
+# if num % 2 != 0:
+#     for row in range(1, num+1):
+#         for col in range(1, row+1):
+#             if col == 1:
+#                 print("*", end=" ")
+#                 continue
+#             if row % 2 == 0:
+#                 print(" ", end=" ")
+#             else:
+#                 print("*", end=" ")
+
+#         for col in range(num-row, 0, -1):
+#             if row == 1:
+#                 print("*", end=" ")
+#                 continue
+#             if col % 2 == 0:
+#                 print(" ", end=" ")
+#             else:
+#                 print("*", end=" ")
+#         print()
+# else:
+#     print("Please enter an odd number.")
+
+
+# * * *
+#  * 1 *
+#   * * *
+#   * * *
+#  * 2 *
+# * * *
+# * * *
+#  * 3 *
+#   * * *
+#   * * *
+#  * 4 *
+# * * *
+# * * *
+#  * 5 *
+#   * * *
+
+
+num = 5
+start = 1
+flag = (num + 1)//2
+
+if num % 2 != 0:
+    while start<=num:
+        if start % 2 == 0:
+            for row in range(1, num+1):
+                for col in range(1, row):
+                    print(" ", end=" ")
+                for col in range(1, num+1):
+                    if col == flag and row == flag:
+                        print(start, end=" ")
+                        continue
+                    if row == 1 or row == num or col == 1 or col == num:
+                        print("*", end=" ")
+                    else:
+                        print(" ", end=" ")
+                print()
+        else:
+            print("************")
+        start+=1
+else:
+    print("Please enter an odd number.")
