@@ -90,6 +90,33 @@ name = "python"
 #      * * *
 #     * * * *
 #    * * * * *
-num = 6
-for row in range(num):
-    print(" "*(num-row)," *"*row)
+# num = 6
+# for row in range(num):
+#     print(" "*(num-row)," *"*row)
+
+# for ch in "python":
+#     print(ch)
+
+# name = "python"
+
+# ch = iter(name)
+
+# print(next(ch))
+# print(next(ch))
+# print(next(ch))
+# print(next(ch))
+# print(next(ch))
+# print(next(ch))
+# print(next(ch))
+
+
+# def simple_generator():
+#     yield 1
+#     yield 2
+#     yield 3
+
+# num = simple_generator()
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# print(next(num))

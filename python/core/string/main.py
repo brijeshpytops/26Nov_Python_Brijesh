@@ -152,3 +152,21 @@ technologies = [
 # num = 5
 # for row in range(1, num+1):
 #     print(" "*row," *"*(num-row+1))
+
+
+# Escap sequesnce
+
+# print("brijesh gondaliya")
+# print("brijesh go\ndaliya")
+# print(r"\tbrijesh go\ndaliya")
+
+
+# print("my name is "brijesh gondaliy"a")
+# print("my name is \"brijesh gondaliya\"")
+# print("my name is \'brijesh gondaliya\'")
+# print("my name is 'brijesh gondaliya'")
+
+# print("\\")
+# print("\'")
+# print("\"")
+# print("\\\\")
