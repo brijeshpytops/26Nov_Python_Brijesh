@@ -122,3 +122,33 @@ technologies = [
 #     ("perl", 4, 1, 3, 0),
 #     ("haskell", 7, 2, 5, 0)
 # ]
+
+# *****
+# ****
+# ***
+# **
+# *
+
+# num = 5
+# for row in range(1, num+1):
+#     print("*"*(num-row+1))
+
+#   *****
+#    ****
+#     ***
+#      **
+#       *
+
+# num = 5
+# for row in range(1, num+1):
+#     print(" "*row,"*"*(num-row+1))
+
+#    * * * * *
+#     * * * *
+#      * * *
+#       * *
+#        *
+
+# num = 5
+# for row in range(1, num+1):
+#     print(" "*row," *"*(num-row+1))
