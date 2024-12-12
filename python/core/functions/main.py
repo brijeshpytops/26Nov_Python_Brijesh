@@ -80,3 +80,62 @@ function_name(val1, val2,...)
 
 # add = lambda x,y,z:x+y+z
 # print(add(10,20,30))
+
+
+
+
+# num = 10 # global var
+# def test():
+#     global num
+#     num = 20 
+#     # num = 10 # local var
+#     print(num)
+
+# test()
+# print(num)
+
+
+# nums = [1,2,3,4,5,6,7,8,9,10]
+
+# for index, num in enumerate(nums):
+#     nums[index] = num*num
+
+# print(nums)
+
+
+# print(list(num*num for index, num in enumerate([1,2,3,4,5,6,7,8,9,10])))
+
+# print(list(map(lambda num:num*num, [1,2,3,4,5,6,7,8,9,10])))
+
+# nums = [1,2,3,4,5,6,7,8,9,10]
+
+# def is_even(num):
+#     return num % 2 == 0
+
+# print(list(filter(is_even, nums)))
+
+# print(list(filter(lambda num:num % 2 == 0, nums)))
+# print(list(filter(lambda num:num % 2 != 0, nums)))
+
+
+# def Outer_lower_func(func):
+#     def Inner_lower_func():
+#         res = func().lower()
+#         print(res)
+#         return res
+#     return Inner_lower_func
+
+# def Outer_upper_func(func):
+#     def Inner_upper_func():
+#         res = func().upper()
+#         print(res)
+#         return res
+#     return Inner_upper_func
+# @Outer_upper_func
+# @Outer_lower_func
+# def text():
+#     return input("Enter a something: ")
+
+# print(text())
+
+
