@@ -16,3 +16,38 @@
 # Task - 2: calculate length of any iterable object without using any built-in functions
 
 # Task - 3: create a function for bus ticket generation
+
+
+# text = "python TechNOlogy"
+
+# def UpperCase(ch):
+#     if (ord(ch) >= 97 and ord(ch) <= 122):
+#         return chr(ord(ch) - 32)
+    
+# def LowerCase(ch):
+#     if ord(ch) >= 65 and ord(ch) <= 90:
+#         return chr(ord(ch) + 32)
+    
+# swapcase = ""
+
+# for ch in text:
+#     if ord(ch) >= 65 and ord(ch) <= 90:
+#         swapcase += LowerCase(ch)
+#     elif (ord(ch) >= 97 and ord(ch) <= 122):
+#         swapcase += UpperCase(ch)
+#     else:
+#         swapcase += ch
+
+# print(swapcase)
+
+
+# def TitleCase(text):
+#     words = text.split(" ")
+#     for index, word in enumerate(words):
+#         words[index] = words[index].capitalize()
+#     return " ".join(words)
+
+
+# text = input("Enter a text")
+
+# print(TitleCase(text))
