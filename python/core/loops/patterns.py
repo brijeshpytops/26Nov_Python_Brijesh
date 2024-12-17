@@ -373,27 +373,64 @@ num = 3
 #   * * *
 
 
-num = 5
-start = 1
-flag = (num + 1)//2
+# num = 5
+# start = 1
+# flag = (num + 1)//2
 
-if num % 2 != 0:
-    while start<=num:
-        if start % 2 == 0:
-            for row in range(1, num+1):
-                for col in range(1, row):
-                    print(" ", end=" ")
-                for col in range(1, num+1):
-                    if col == flag and row == flag:
-                        print(start, end=" ")
-                        continue
-                    if row == 1 or row == num or col == 1 or col == num:
-                        print("*", end=" ")
-                    else:
-                        print(" ", end=" ")
-                print()
-        else:
-            print("************")
-        start+=1
-else:
-    print("Please enter an odd number.")
+# if num % 2 != 0:
+#     while start<=num:
+#         if start % 2 == 0:
+#             for row in range(1, num+1):
+#                 for col in range(1, row):
+#                     print(" ", end=" ")
+#                 for col in range(1, num+1):
+#                     if col == flag and row == flag:
+#                         print(start, end=" ")
+#                         continue
+#                     if row == 1 or row == num or col == 1 or col == num:
+#                         print("*", end=" ")
+#                     else:
+#                         print(" ", end=" ")
+#                 print()
+#         else:
+#             print("************")
+#         start+=1
+# else:
+#     print("Please enter an odd number.")
+
+
+
+# 1
+#  2
+#   3
+#    4
+#     5
+
+# num = 5
+
+# for row in range(1, num+1):
+#     for col in range(1, row+1):
+#         if row == col:
+#             print(row, end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+#     5
+#    4
+#   3
+#  2
+# 1
+
+num = 5
+
+# for row in range(1, num+1):
+#     for col in range(1, num-row+1+1):
+#         print(col, end="")
+#     print()
+
+for row in range(1,num+1):
+    for col in range(1, num-row+2):
+        print(col, end="")
+    print()
