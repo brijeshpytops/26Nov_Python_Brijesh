@@ -430,7 +430,23 @@ num = 5
 #         print(col, end="")
 #     print()
 
-for row in range(1,num+1):
-    for col in range(1, num-row+2):
-        print(col, end="")
-    print()
+# for row in range(1,num+1):
+#     for col in range(1, num-row+2):
+#         print(col, end="")
+#     print()
+
+num = 5
+
+# for row in range(1, num+1):
+#     for col in range(num-row, 0,-1):
+#         print(" ", end="")
+#     for col in range(num-row+1, 0,-1):
+#         print(col, end="")
+#         break
+#     print()
+
+# for row in range(num, 0,-1):
+#     print(" "*(num-row) + str(row))
+
+# for row in range(1, num+1):
+#     print(" "*(num-row), "* "*(row))
