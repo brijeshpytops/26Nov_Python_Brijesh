@@ -1,4 +1,9 @@
 """
+
+what is class or object ?
+
+# class is a blueprint or template for creating objects. Objects are instances of a class.
+
 class:
 syntax:
 
@@ -79,3 +84,4 @@ class Person:
 #     print(p.n)
 #     print(p.a)
 #     print(p.run())
+
